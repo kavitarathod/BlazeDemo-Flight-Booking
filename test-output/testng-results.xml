@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BlazeDemo TestSuite" duration-ms="11630" started-at="2021-06-09T08:57:17Z" finished-at="2021-06-09T08:57:29Z">
+    <groups>
+    </groups>
+    <test name="Book Flight Test" duration-ms="11630" started-at="2021-06-09T08:57:17Z" finished-at="2021-06-09T08:57:29Z">
+      <class name="com.blazeDemo.tests.BookFlightTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.blazeDemo.tests.BookFlightTest@6e0e048a]" name="setup" is-config="true" duration-ms="4779" started-at="2021-06-09T08:57:17Z" finished-at="2021-06-09T08:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.blazeDemo.tests.BookFlightTest@6e0e048a]" name="initializeDriver" is-config="true" duration-ms="0" started-at="2021-06-09T08:57:22Z" finished-at="2021-06-09T08:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="searchAndSelectFlight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.blazeDemo.tests.BookFlightTest@6e0e048a]" name="searchAndSelectFlight" duration-ms="1282" started-at="2021-06-09T08:57:23Z" description="Search for flights" data-provider="BookingDetailsData" finished-at="2021-06-09T08:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chris Roy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[#123 Paris]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7.46479E+14]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2025]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Chris Roy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndSelectFlight -->
+        <test-method status="PASS" signature="selectFlight()[pri:0, instance:com.blazeDemo.tests.BookFlightTest@6e0e048a]" name="selectFlight" duration-ms="941" started-at="2021-06-09T08:57:24Z" description="Select the First available Flight" depends-on-methods="com.blazeDemo.tests.BookFlightTest.searchAndSelectFlight" finished-at="2021-06-09T08:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method name="purchaseFlightTicket" signature="purchaseFlightTicket(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.blazeDemo.tests.BookFlightTest@6e0e048a]" status="PASS" duration-ms="2291" finished-at="2021-06-09T08:57:27Z" started-at="2021-06-09T08:57:25Z" depends-on-methods="com.blazeDemo.tests.BookFlightTest.selectFlight" data-provider="BookingDetailsData" description="Enter details and make a Flight ticket purchase">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chris Roy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[#123 Paris]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7.46479E+14]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2025]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Chris Roy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseFlightTicket -->
+        <test-method status="PASS" signature="bookingConfirm()[pri:0, instance:com.blazeDemo.tests.BookFlightTest@6e0e048a]" name="bookingConfirm" duration-ms="165" started-at="2021-06-09T08:57:27Z" description="Validate the booking Confirmation" depends-on-methods="com.blazeDemo.tests.BookFlightTest.purchaseFlightTicket" finished-at="2021-06-09T08:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingConfirm -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.blazeDemo.tests.BookFlightTest@6e0e048a]" name="closeDriver" is-config="true" duration-ms="936" started-at="2021-06-09T08:57:28Z" finished-at="2021-06-09T08:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.blazeDemo.tests.BookFlightTest -->
+    </test> <!-- Book Flight Test -->
+  </suite> <!-- BlazeDemo TestSuite -->
+</testng-results>

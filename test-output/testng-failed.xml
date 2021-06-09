@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.blazeDemo.tests.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Book Flight Test(failed)">
+    <classes>
+      <class name="com.blazeDemo.tests.BookFlightTest">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="closeDriver"/>
+          <include name="purchaseFlightTicket"/>
+          <include name="bookingConfirm"/>
+          <include name="setup"/>
+          <include name="searchAndSelectFlight"/>
+          <include name="selectFlight"/>
+        </methods>
+      </class> <!-- com.blazeDemo.tests.BookFlightTest -->
+    </classes>
+  </test> <!-- Book Flight Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

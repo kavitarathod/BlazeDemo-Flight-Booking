@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo TestSuite">
+<listeners>
+<listener class-name="com.blazeDemo.tests.TestListeners" />
+</listeners>	
+	<test name="Book Flight Test">
+		<classes>
+			<class name="com.blazeDemo.tests.BookFlightTest">
+			</class>
+		</classes>
+	</test>
+</suite>
